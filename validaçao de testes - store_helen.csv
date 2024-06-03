@@ -1,0 +1,62 @@
+Nome da classe,Limites,Limites,Dados de teste dentro da classe,Dados de teste nos limites,Teste no Chrome,Link para o relatório de bug
+VALIDAÇÃO DE LAYOUT,,,,,,
+CABEÇALHO,Lupa de busca e campo de busca (O que deseja buscar?) do lado esquerdo,,,,REPROVADO,FALTA O TEXTO
+,Logo da Green Cycle no centro,,,,APROVADO,
+,Botão/Ícone da Sacola,,,,APROVADO,
+,"Botão/Ícone ""Usuário"" no lado direito",,,,APROVADO,FONTE DIFERENTE - ALINHAMENTO DA SACOLA
+,"Menu com botões : Loja, Sobre, Pontos de Coleta e Contato",,,,APROVADO,FALTA NEGRITO
+BODY,"Texto : ""Produtos""",,,,APROVADO,Manter a Frase do figma 
+,Ícone Categoria: Acessorios,,,,APROVADO,
+,Ícone Categoria: Calçados ,,,,APROVADO,
+,Ícone Categoria: Moveis ,,,,APROVADO,
+,Ícone Categoria: Roupas ,,,,APROVADO,
+,Ícone Lojas: Loja 1,,,,APROVADO,
+,Ícone Lojas: Loja 2,,,,APROVADO,
+,Ícone Lojas: Loja 3,,,,APROVADO,
+,Ícone Lojas: Loja 4,,,,APROVADO,
+,Ícone Lojas: Loja 5,,,,APROVADO,
+,"Ícone de ""+""para adicionar na Sacola ",,,,APROVADO,
+,"Descriçao de cada ""Produto"" ",,,,APROVADO,
+,"Valor em cada ""produto""",,,,APROVADO,
+,Fonte de texto de cada Produto ,,,,APROVADO,
+,"Disposição dos ""Produtos"" em grade ",,,,APROVADO,
+,"Fonte de Texo ""Inter""",,,,APROVADO,
+,"Texto de descriçao de produto deve ter reticências se a descrição for longa 
+",,,,APROVADO,
+RODAPÉ,"Link e ícone ""Sobre""",,,,APROVADO,
+,"Textos: Contato: ""E-mail"" e ""Telefone""",,,,APROVADO,
+VALIDAÇÃO DE FUNCIONALIDADE,,,,,,
+CABEÇALHO,Campo de busca,,,,APROVADO,
+,Logo GreenCycle leva para Home,,,,APROVADO,
+,Botão/Ícone da Sacola abre o popup da sacola,,,,APROVADO,
+,"Botão/Ícone ""Usuário"" abre um pop com um texto ""Olá xxx"" e um botão ""Sair""",,,,APROVADO,
+,"Botão ""Loja"" abre a página da Loja",,,,APROVADO,
+,"Botão ""Sobre"" abre a página Sobre Empresa",,,,APROVADO,
+,"Botão ""Pontos de Coleta"" abre a página do Mapa",,,,APROVADO,
+,"Botão ""Contato"" ancora o footer com as informações de contato",,,,APROVADO,
+BODY,"Ao clicar no ""Produto""abre a pagina do produto ",,,,APROVADO,
+,"Ao clicar no ícone ""+"" adiciona o produto na ""Sacola""",,,,APROVADO,
+,"Botão ""Encontre um na sua região"" abre a página dos pontos de coleta",,,,APROVADO,
+,"Categorias: Ao clicar em ""Acessorios"" abre a pagima com todos os acessorios em grade ",,,,APROVADO,
+,"Categorias: Ao clicar em ""Móveis"" abre a pagima com todos os móveis em grade ",,,,APROVADO,
+,"Categorias: Ao clicar em ""Calçados"" abre a pagima com todos os calçados em grade ",,,,APROVADO,
+,"Categorias: Ao clicar em ""Roupas"" abre a pagima com todos os roupas em grade ",,,,APROVADO,
+,"Categorias: Ao clicar em ""Utilidades"" abre a pagima com todos os roupas em grade ",,,,APROVADO,
+,"Lojas: Ai clicar na ""Loja 1"" abre a pagina da loja com todos os seus produtos em grade ",,,,APROVADO,
+,"Lojas: Ai clicar na ""Loja 2"" abre a pagina da loja com todos os seus produtos em grade ",,,,APROVADO,
+,"Lojas: Ai clicar na ""Loja 3"" abre a pagina da loja com todos os seus produtos em grade ",,,,APROVADO,
+,"Lojas: Ai clicar na ""Loja 4"" abre a pagina da loja com todos os seus produtos em grade ",,,,APROVADO,
+,"Lojas: Ai clicar na ""Loja 5"" abre a pagina da loja com todos os seus produtos em grade ",,,,APROVADO,
+,"Ao clicar no ícone ""+"" adiciona o produto na ""Sacola"" aparece ""Item adicionado com sucesso""",,,,APROVADO,
+RODAPÉ,"Botão ""Sobre"" abre a página Sobre Empresa",,,,APROVADO,Pode abrir e levar para o inicio da página?
+VALIDAÇÃO DO CAMPO BUSCAR,,,,,,
+Nome da classe,Limites,Limites,Dados de teste dentro da classe,Dados de teste nos limites,status,Link para o relatório de bug
+CAMPO BUSCAR,20 caracteres,20,Shirt,"19, 20 , 21",APROVADO,
+,>20  caracteres,21,Cadeira de plástico r (21),"20, 21",REPROVADO,tá sem limite
+,Letras latinas,,Shirt,,APROVADO,"deveria mostrar uma msg de ""Item náo encontrado""?"
+,Espaços,,Cadeira de plástico,,APROVADO,
+,Traços,,Cadeira - de,,REPROVADO,
+,Números,,Cadeira 1,,REPROVADO,
+,Simbolos,,Cadeira #,,REPROVADO,
+,Campo  Vazio,,Campo Vazio,,APROVADO,Abre a loja
+,Letras Não Latinas,,- 我 不 是 中国 人,,REPROVADO,
